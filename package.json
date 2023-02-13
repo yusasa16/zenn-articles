@@ -1,0 +1,17 @@
+{
+  "name": "zenn-articles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yusasa16/zenn-articles.git",
+  "author": "yusasa16 <yusasa16@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "preview": "zenn preview",
+    "pre": "yarn preview",
+    "article": "zenn new:article",
+    "art": "yarn article"
+  },
+  "dependencies": {
+    "zenn-cli": "^0.1.137"
+  }
+}
